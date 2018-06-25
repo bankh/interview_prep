@@ -6,25 +6,25 @@
 ## Machine Learning and Deep Learning Parts:
 ## Build Instructions for DL Environment:
 - Install Anaconda
-  $> chmod +x {Anaconda_name}
-  $> ./{Anaconda_name}
+  $> chmod +x {Anaconda_name}  
+  $> ./{Anaconda_name}  
 
-- export PATH=/home/{user_name}/anaconda3/bin
+- export PATH=/home/{user_name}/anaconda3/bin  
 
-- Check the version of Conda
-	- $> conda -V
+- Check the version of Conda  
+	$> conda -V  
 
-- Update the conda
-	- $> conda update conda
+- Update the conda  
+	$> conda update conda  
 
 - Create a virtual environment for the project
-	- $> conda create -n {your_env_name} python={python_ver} anaconda
+	$> conda create -n {your_env_name} python={python_ver} anaconda  
 
-- Activate your virtual environment
-	- $> source activate keras
+- Activate your virtual environment  
+	$> source activate keras  
 
-- Install Tensorflow to the keras environment	
-	- Install tensorflow with GPU support
+- Install Tensorflow to the keras environment  
+	- Install tensorflow with GPU support  
 	```
 	$pip install --ignore-installed --upgrade {Check the compatible version based on the ubuntu and other library versions}
 	```
