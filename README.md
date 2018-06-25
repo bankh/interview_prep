@@ -1,6 +1,7 @@
 # Interview Preparation
 ## Coding Preparation
-{ CtCi: [Laakman] Cracking the coding interview from hackerrank challenge}
+Folder structure:  
+{ CtCi: [Laakman] Cracking the coding interview from hackerrank challenge}  
 { cppDSAL: [Anggoro] Cpp_data_structures_and_algorithms}
 
 ## Machine Learning and Deep Learning Parts:
