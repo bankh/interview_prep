@@ -58,7 +58,13 @@ CUDA Toolkit https://developer.nvidia.com/cuda-80-ga2-download-archive Ubuntu 14
 
 	3- GPU Drivers supporting version of CUDA Toolkit
 	libcupti-dev library, which is the NVidia Cuda Profile Tools Interface.
-
+	
+	4- Install Keras:  
+	$> conda install -c conda-forge keras  
+	
+	5- Install Google Client API:  
+	$> conda install -c conda-forge google-api-python-client
+	
 * Reminders:
 To check the active environments in Conda:  
 	$> conda-env list  
