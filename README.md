@@ -6,18 +6,18 @@
 ## Machine Learning and Deep Learning Parts:
 ## Build Instructions for DL Environment:
 - Install Anaconda
-  $> chmod +x {Anaconda_name}  
-  $> ./{Anaconda_name}  
+  	$> chmod +x {Anaconda_name}  
+	$> ./{Anaconda_name}  
 
 - export PATH=/home/{user_name}/anaconda3/bin  
 
-- Check the version of Conda  
+- Check the version of Conda:  
 	$> conda -V  
 
-- Update the conda  
+- Update the conda:  
 	$> conda update conda  
 
-- Create a virtual environment for the project
+- Create a virtual environment for the project:  
 	$> conda create -n {your_env_name} python={python_ver} anaconda  
 
 - Activate your virtual environment  
